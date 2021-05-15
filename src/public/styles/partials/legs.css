@@ -1,0 +1,101 @@
+/* Container */
+.bill-cipher .body-bottom .legs {
+    width: 100%;
+    height: 4.5rem;
+
+    max-width: 20rem;
+
+    position: absolute;
+}
+
+
+
+/* Legs */
+.bill-cipher .body-bottom .legs .rl-legs {
+    width: var(--standard-thickness);
+    height: 4.5rem;
+
+    background-color: var(--graphite);
+
+    border-radius: 5rem;
+    -webkit-border-radius: 5rem;
+    -moz-border-radius: 5rem;
+    -ms-border-radius: 5rem;
+    -o-border-radius: 5rem;
+}
+.bill-cipher .body-bottom .legs .right-leg { float: left; }
+.bill-cipher .body-bottom .legs .left-leg  { float: right; }
+
+
+
+/* Leg shins */
+.bill-cipher .body-bottom .legs .right-leg .rl-shins,
+.bill-cipher .body-bottom .legs .left-leg .rl-shins {
+    width: var(--standard-thickness);
+    height: 3rem;
+
+    background-color: var(--graphite);
+
+    position: relative;
+    bottom: -2rem;
+
+    border-radius: 5rem;
+    -webkit-border-radius: 5rem;
+    -moz-border-radius: 5rem;
+    -ms-border-radius: 5rem;
+    -o-border-radius: 5rem;
+}
+.bill-cipher .body-bottom .legs .right-leg .shin {
+    left: 1rem;
+
+    transform: rotate(60deg);
+    -webkit-transform: rotate(60deg);
+    -moz-transform: rotate(60deg);
+    -ms-transform: rotate(60deg);
+    -o-transform: rotate(60deg);
+}
+.bill-cipher .body-bottom .legs .left-leg .shin {
+    right: 1rem;
+
+    transform: rotate(-60deg);
+    -webkit-transform: rotate(-60deg);
+    -moz-transform: rotate(-60deg);
+    -ms-transform: rotate(-60deg);
+    -o-transform: rotate(-60deg);
+}
+
+
+
+/* Foot */
+.bill-cipher .body-bottom .legs .right-leg .shin .rl-foots,
+.bill-cipher .body-bottom .legs .left-leg .shin .rl-foots {
+    width: var(--standard-thickness);
+    height: 2.5rem;
+
+    background-color: var(--graphite);
+
+    position: relative;
+    top: -0.2rem;
+
+    border-radius: 5rem;
+    -webkit-border-radius: 5rem;
+    -moz-border-radius: 5rem;
+    -ms-border-radius: 5rem;
+    -o-border-radius: 5rem;
+}
+.bill-cipher .body-bottom .legs .right-leg .shin .foot {
+    left: 1rem;
+    transform: rotate(-60deg);
+    -webkit-transform: rotate(-60deg);
+    -moz-transform: rotate(-60deg);
+    -ms-transform: rotate(-60deg);
+    -o-transform: rotate(-60deg);
+}
+.bill-cipher .body-bottom .legs .left-leg .shin .foot {
+    right: 1rem;
+    transform: rotate(60deg);
+    -webkit-transform: rotate(60deg);
+    -moz-transform: rotate(60deg);
+    -ms-transform: rotate(60deg);
+    -o-transform: rotate(60deg);
+}

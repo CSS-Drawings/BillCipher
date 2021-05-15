@@ -1,0 +1,27 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+:root {
+    --white : #fff;
+    --black : #000;
+
+    --background : #dae9fe;
+
+    --graphite : #333333;
+    --gray     : #cbcbcb;
+
+    --pink : #ff0066;
+    --blue : #32ccff;
+
+    --body             : #ffff67;
+    --shadow-edge      : #ff9934;
+    --shadow-occlusion : #cc6733;
+    --drop-shadow      : #ccccff;
+
+    --light-brick-edge : #fad853;
+    --dark-brick-edge  : #ea8338;
+
+    --standard-thickness: 1rem;
+}

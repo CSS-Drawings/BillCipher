@@ -1,3 +1,30 @@
 body {
-    background-color: #8afbff
+    width: 100vw;
+    height: 100vh;
+
+    background-color: var(--background);
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    align-content: center;
+    justify-content: center;
+    flex-wrap: nowrap;
 }
+
+
+
+/* Notebooks */
+@media (max-width: 1366px) { html { font-size: 70%; } }
+
+/* Desktop */
+@media (max-width: 1080px) { html { font-size: 93.75%; } }
+@media (max-width:  780px) { html { font-size: 87.50%; } }
+
+/* Tablet */
+@media (max-width:  720px) { html { font-size: 75%; } }
+@media (max-width:  620px) { html { font-size: 62.5%; } }
+
+/* Mobile */
+@media (max-width:  520px) { html { font-size: 50%; } }
+@media (max-width:  420px) { html { font-size: 31.25%; } }
