@@ -3,8 +3,9 @@
     width: 15rem;
     height: 15rem;
 
-    position: absolute;
     margin-top: 48.5rem;
+
+    position: absolute;
 
     overflow: hidden;
 }
@@ -35,7 +36,7 @@
     height: 13rem;
 
     background-color: var(--white);
-    box-shadow: inset 0px 15px 0px 0px var(--gray);
+    box-shadow: inset 0px 15px 0px 0px var(--gray), 0px 7px 0px 0px var(--shadow-edge);
     border: var(--standard-thickness) solid var(--black);
 
     margin-top: -2rem;
@@ -56,6 +57,7 @@
     height: 7rem;
 
     background-color: var(--black);
+    box-shadow: -5px -5px 0px 5px var(--blue), 5px -5px 0px 5px var(--pink);
     margin-top: -2.5rem;
 
     border-radius: 0 0 50% 50%;
@@ -63,6 +65,24 @@
     -moz-border-radius: 0 0 50% 50%;
     -ms-border-radius: 0 0 50% 50%;
     -o-border-radius: 0 0 50% 50%;
+}
+.eye-container .eye .direct-light {
+    width: 4rem;
+    height: 1.5rem;
+
+    background-color: var(--white);
+
+    margin-top: 2rem;
+
+    position: absolute;
+    top: 0.5rem;
+    right: 3.5rem;
+
+    border-radius: 50%;
+    -webkit-border-radius: 50%;
+    -moz-border-radius: 50%;
+    -ms-border-radius: 50%;
+    -o-border-radius: 50%;
 }
 
 
@@ -95,16 +115,26 @@
     -o-border-radius: 5rem;
 }
 .eye-container .eyelashes .els-1 {
+    box-shadow: 7px 7px 0px 0px var(--shadow-edge);
+
     top: 1rem;
+
     transform: rotate(45deg);
     -webkit-transform: rotate(45deg);
     -moz-transform: rotate(45deg);
     -ms-transform: rotate(45deg);
     -o-transform: rotate(45deg);
 }
-.eye-container .eyelashes .els-2 { top: 2.5rem; }
+.eye-container .eyelashes .els-2 {
+    box-shadow: 0px 7px 0px 0px var(--shadow-edge);
+
+    top: 2.5rem;
+}
 .eye-container .eyelashes .els-3 {
+    box-shadow: -7px 7px 0px 0px var(--shadow-edge);
+
     top: 1rem;
+
     transform: rotate(-45deg);
     -webkit-transform: rotate(-45deg);
     -moz-transform: rotate(-45deg);

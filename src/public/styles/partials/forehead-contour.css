@@ -1,0 +1,31 @@
+/* Container */
+.bill-cipher .body .forehead-contour {
+    width: 15rem;
+    height: var(--standard-thickness);
+
+    margin-top: 30.5rem;
+
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-around;
+
+    position: absolute;
+}
+
+
+
+/* Forehead contour */
+.bill-cipher .body .forehead-contour .fc {
+    height: calc(var(--standard-thickness) / 3);
+
+    background-color: var(--shadow-edge);
+
+    border-radius: 5rem;
+    -webkit-border-radius: 5rem;
+    -moz-border-radius: 5rem;
+    -ms-border-radius: 5rem;
+    -o-border-radius: 5rem;
+}
+.bill-cipher .body .forehead-contour .fc-1 { width: calc(100% - 6rem); }
+.bill-cipher .body .forehead-contour .fc-2 { width: 2rem; }
