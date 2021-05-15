@@ -15,7 +15,7 @@
     width: var(--standard-thickness);
     height: 4.5rem;
 
-    background-color: var(--graphite);
+    background-color: var(--black);
 
     border-radius: 5rem;
     -webkit-border-radius: 5rem;
@@ -34,7 +34,7 @@
     width: var(--standard-thickness);
     height: 3rem;
 
-    background-color: var(--graphite);
+    background-color: var(--black);
 
     position: relative;
     bottom: -2rem;
@@ -72,7 +72,7 @@
     width: var(--standard-thickness);
     height: 2.5rem;
 
-    background-color: var(--graphite);
+    background-color: var(--black);
 
     position: relative;
     top: -0.2rem;

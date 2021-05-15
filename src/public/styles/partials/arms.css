@@ -13,7 +13,7 @@
     width: var(--standard-thickness);
     height: 8rem;
 
-    background-color: var(--graphite);
+    background-color: var(--black);
 }
 .bill-cipher .body-bottom .arms .right-arm {
     float: left;
@@ -32,7 +32,7 @@
     width: 2.5rem;
     height: 2.5rem;
 
-    background-color: var(--graphite);
+    background-color: var(--black);
 
     position: relative;
     bottom: -5.8rem;
