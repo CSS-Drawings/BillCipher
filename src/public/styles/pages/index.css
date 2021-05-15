@@ -23,7 +23,7 @@ body main.bill-cipher {
 
 
 /* Notebooks */
-@media (max-width: 1366px) { html { font-size: 70%; } }
+@media (max-width: 1366px) { html { font-size: 60%; } }
 
 /* Desktop */
 @media (max-width: 1080px) { html { font-size: 93.75%; } }

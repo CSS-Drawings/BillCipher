@@ -1,0 +1,56 @@
+/* Topper */
+.bill-cipher .ldbp-topper {
+    width: 10rem;
+    height: 10rem;
+
+    position: absolute;
+    top: -8rem;
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.bill-cipher .ldbp-topper .hat { width: 3rem; height: 100%; }
+.bill-cipher .ldbp-topper .hat-brim { width: 100%; height: 2rem; }
+.bill-cipher .dark .topper,
+.bill-cipher .blue .topper,
+.bill-cipher .pink .topper  { margin-top: 0.7rem; }
+
+
+
+/* Shadow - (topper) */
+.bill-cipher .light .body .top-hat-shadow {
+    width: 2.5rem;
+    height: 0.5rem;
+
+    background-color: var(--shadow-edge);
+
+    margin-top: 4.5rem;
+
+    position: absolute;
+    border-radius: 0 0 5rem 5rem;
+}
+
+
+
+/* Light */
+.bill-cipher .light .topper .hat,
+.bill-cipher .light .topper .hat-brim { background-color: var(--black); }
+
+
+
+/* Dark */
+.bill-cipher .dark .topper .hat,
+.bill-cipher .dark .topper .hat-brim { background-color: var(--black); }
+
+
+
+/* Blue */
+.bill-cipher .blue .topper .hat,
+.bill-cipher .blue .topper .hat-brim { background-color: var(--blue); }
+
+
+
+/* Pink */
+.bill-cipher .pink .topper .hat,
+.bill-cipher .pink .topper .hat-brim { background-color: var(--pink); }

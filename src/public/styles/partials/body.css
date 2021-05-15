@@ -1,5 +1,13 @@
 /* LDBP */
-.bill-cipher .light { position: absolute; z-index: 400; }
+.bill-cipher .light {
+    position: absolute;
+    
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+    z-index: 400;
+}
 .bill-cipher .dark  {
     position: absolute;
 
