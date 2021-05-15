@@ -13,7 +13,7 @@
 /* Legs */
 .bill-cipher .body-bottom .legs .rl-legs {
     width: var(--standard-thickness);
-    height: 4.5rem;
+    height: 6rem;
 
     background-color: var(--black);
 
@@ -37,7 +37,7 @@
     background-color: var(--black);
 
     position: relative;
-    bottom: -2rem;
+    bottom: -3.5rem;
 
     border-radius: 5rem;
     -webkit-border-radius: 5rem;

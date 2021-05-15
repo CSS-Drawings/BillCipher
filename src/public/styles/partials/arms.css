@@ -11,7 +11,7 @@
 /* Arms */
 .bill-cipher .body-bottom .arms .rl-arms {
     width: var(--standard-thickness);
-    height: 8rem;
+    height: 10rem;
 
     background-color: var(--black);
 }
@@ -35,7 +35,7 @@
     background-color: var(--black);
 
     position: relative;
-    bottom: -5.8rem;
+    bottom: -7.8rem;
 
     border-radius: 50%;
     -webkit-border-radius: 50%;
