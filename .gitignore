@@ -1,0 +1,14 @@
+# My configs
+.github
+.vscode
+
+# Gitignore
+#.gitignore
+
+# Node modules
+/node_modules
+
+# Avoiding artifacts
+npm-debug.log
+.DS_Store
+/*.env

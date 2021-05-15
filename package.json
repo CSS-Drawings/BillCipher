@@ -1,0 +1,32 @@
+{
+  "name": "BillCipher",
+  "version": "1.0.0",
+  "description": "Bill Cipher. (Gravity Falls)",
+  "main": "src/server.js",
+  "scripts": {
+    "dev": "nodemon .",
+    "start": "node .",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/CSS-Drawings/BillCipher.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/CSS-Drawings/BillCipher/issues"
+  },
+  "homepage": "https://github.com/CSS-Drawings/BillCipher#readme",
+  "devDependencies": {
+    "nodemon": "^2.0.7"
+  },
+  "dependencies": {
+    "express": "^4.17.1"
+  },
+  "engines": {
+    "node": "14.16.1",
+    "npm": "6.14.12"
+  }
+}
