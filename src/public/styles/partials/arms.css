@@ -33,6 +33,7 @@
     height: 2.5rem;
 
     background-color: var(--black);
+    box-shadow: 0 0 0 0.938rem var(--background), 1.25rem 0 0 0.313rem var(--pink), -1.25rem 0 0 0.313rem var(--blue);
 
     position: relative;
     bottom: -7.8rem;
@@ -45,3 +46,19 @@
 }
 .bill-cipher .body-bottom .arms .right-arm .hand { right: 0; }
 .bill-cipher .body-bottom .arms .left-arm .hand  { margin-left: -1.5rem; }
+
+
+
+/* Wrist */
+.bill-cipher .body-bottom .arms .right-arm .rl-wrists,
+.bill-cipher .body-bottom .arms .left-arm .rl-wrists {
+    width: var(--standard-thickness);
+    height: 3rem;
+
+    background-color: var(--black);
+
+    position: relative;
+    top: 4rem;
+}
+.bill-cipher .body-bottom .arms .right-arm .wrist { border-bottom-left-radius: 12px; }
+.bill-cipher .body-bottom .arms .left-arm .wrist  { border-bottom-right-radius: 12px; }
