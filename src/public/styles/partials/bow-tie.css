@@ -1,0 +1,32 @@
+/* Container */
+.bow-tie {
+    margin-top: 70rem;
+
+    position: absolute;
+
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+}
+
+
+
+/* Bow tie */
+.bow-tie .rl-bt {
+    width: 0;
+    height: 0;
+
+    border-top: 3rem solid transparent;
+    border-bottom: 3rem solid transparent;
+
+    margin: -1rem;
+
+    border-radius: 1rem;
+    -webkit-border-radius: 1rem;
+    -moz-border-radius: 1rem;
+    -ms-border-radius: 1rem;
+    -o-border-radius: 1rem;
+}
+.bow-tie .btr { border-left: 7rem solid var(--black); }
+.bow-tie .btl { border-right: 7rem solid var(--black); }
