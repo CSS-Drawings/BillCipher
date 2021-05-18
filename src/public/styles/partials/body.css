@@ -1,7 +1,7 @@
 /* LDBP */
 .bill-cipher .light {
     position: absolute;
-    
+
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -28,7 +28,7 @@
     z-index: 300;
 }
 .bill-cipher .blue  {
-    margin-right: 2rem;
+    margin-right: 4rem;
 
     position: absolute;
 
@@ -49,7 +49,7 @@
     z-index: 200;
 }
 .bill-cipher .pink  {
-    margin-left: 2rem;
+    margin-left: 4rem;
 
     position: absolute;
 
@@ -72,6 +72,26 @@
 
 
 
+/* Lightness */
+.bill-cipher .light .body .lightness {
+    width: 0;
+    height: 0;
+
+    border-left: 23.5rem solid transparent;
+    border-right: 23.5rem solid transparent;
+    border-bottom: 38rem solid var(--body);
+
+    margin-top: 37.5rem;
+
+    border-radius: 100%;
+    -webkit-border-radius: 100%;
+    -moz-border-radius: 100%;
+    -ms-border-radius: 100%;
+    -o-border-radius: 100%;
+}
+
+
+
 /* Light */
 .bill-cipher .light .body {
     width: 0;
@@ -79,7 +99,7 @@
 
     border-left: 25rem solid transparent;
     border-right: 25rem solid transparent;
-    border-bottom: 40rem solid var(--body);
+    border-bottom: 40rem solid var(--shadow-edge);
 
     display: flex;
     flex-direction: column;

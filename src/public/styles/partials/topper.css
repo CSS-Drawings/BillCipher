@@ -1,17 +1,39 @@
 /* Topper */
 .bill-cipher .ldbp-topper {
-    width: 10rem;
-    height: 10rem;
+    width: 17rem;
+    height: 17rem;
 
     position: absolute;
-    top: -8rem;
+    top: -14rem;
 
     display: flex;
     flex-direction: column;
     align-items: center;
+
+    z-index: 500;
 }
-.bill-cipher .ldbp-topper .hat { width: 3rem; height: 100%; }
-.bill-cipher .ldbp-topper .hat-brim { width: 100%; height: 2rem; }
+.bill-cipher .ldbp-topper .hat {
+    width: 5rem;
+    height: 100%;
+
+    margin-bottom: -0.5rem;
+
+    border-radius: 0.5rem;
+    -webkit-border-radius: 0.5rem;
+    -moz-border-radius: 0.5rem;
+    -ms-border-radius: 0.5rem;
+    -o-border-radius: 0.5rem;
+}
+.bill-cipher .ldbp-topper .hat-brim {
+    width: 100%;
+    height: 4rem;
+
+    border-radius: 0.3rem;
+    -webkit-border-radius: 0.3rem;
+    -moz-border-radius: 0.3rem;
+    -ms-border-radius: 0.3rem;
+    -o-border-radius: 0.3rem;
+}
 .bill-cipher .dark .topper,
 .bill-cipher .blue .topper,
 .bill-cipher .pink .topper  { margin-top: 0.7rem; }
@@ -20,15 +42,22 @@
 
 /* Shadow - (topper) */
 .bill-cipher .light .body .top-hat-shadow {
-    width: 2.5rem;
-    height: 0.5rem;
+    width: 0;
+    height: 0;
 
-    background-color: var(--shadow-edge);
+    border-left: 2.5rem solid transparent;
+    border-right: 2.5rem solid transparent;
+    border-bottom: 4rem solid var(--shadow-edge);
 
-    margin-top: 4.5rem;
+    margin-top: 3.5rem;
 
     position: absolute;
-    border-radius: 0 0 5rem 5rem;
+
+    border-radius: 5rem;
+    -webkit-border-radius: 5rem;
+    -moz-border-radius: 5rem;
+    -ms-border-radius: 5rem;
+    -o-border-radius: 5rem;
 }
 
 

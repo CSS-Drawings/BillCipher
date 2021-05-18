@@ -7,7 +7,7 @@
     --white : #fff;
     --black : #000;
 
-    --background : #dae9fe;
+    --background : #d9e9ff;
 
     --graphite : #333333;
     --gray     : #cbcbcb;
@@ -15,10 +15,10 @@
     --pink : #ff0066;
     --blue : #32ccff;
 
-    --body             : #ffff67;
-    --shadow-edge      : #ff9934;
-    --shadow-occlusion : #cc6733;
-    --drop-shadow      : #ccccff;
+    --body             : #ffff67; /* - 1° #ffe94f */
+    --shadow-edge      : #faa635; /* - 2° #ff9934 */
+    --shadow-occlusion : #dc662d; /* - 2° #cc6733 */
+    --drop-shadow      : #acc9e6;
 
     --light-brick-edge : #fad853;
     --dark-brick-edge  : #ea8338;

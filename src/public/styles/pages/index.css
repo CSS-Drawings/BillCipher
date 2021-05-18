@@ -1,38 +1,57 @@
+html, body { height: 100% }
 body {
     width: 100vw;
-    height: 100vh;
 
     background-color: var(--background);
 
     display: flex;
-    flex-direction: column;
-    align-items: center;
-    align-content: center;
+    flex-direction: row;
     justify-content: center;
-    flex-wrap: nowrap;
 }
 body main.bill-cipher {
+    height: 80rem;
+
+    margin: auto;
+
     display: flex;
-    flex-direction: row;
-    align-items: center;
-    align-content: center;
     justify-content: center;
-    flex-wrap: nowrap;
+    align-items: center;
 }
 
 
 
-/* Notebooks */
-@media (max-width: 1366px) { html { font-size: 60%; } }
+/**
+ *  ROOT: 100% = 16px
+ *
+ *  93.75% = 15px
+ *  87.50% = 14px
+ *  81.25% = 13px
+ *  75%    = 12px
+ *  68.75% = 11px
+ *  62.50% = 10px
+ *  56.25% = 9px
+ *  50%    = 8px
+ *  43.75% = 7px
+ *  40.625% = 6,5px
+ *  37.50% = 6px
+ *  31.25% = 5px
+ *  25%    = 4px
+ *  18.75% = 3px
+ *  12.50% = 2px
+ *  6.25%  = 1px
+ */
+
+
 
 /* Desktop */
-@media (max-width: 1080px) { html { font-size: 93.75%; } }
-@media (max-width:  780px) { html { font-size: 87.50%; } }
+@media (max-width: 1440px) { html { font-size: 50%; } }
+@media (max-width:  820px) { html { font-size: 43.75%; } }
+@media (max-width:  770px) { html { font-size: 40.625%; } }
 
 /* Tablet */
-@media (max-width:  720px) { html { font-size: 75%; } }
-@media (max-width:  620px) { html { font-size: 62.5%; } }
+@media (max-width:  720px) { html { font-size: 37.50%; } }
+@media (max-width:  620px) { html { font-size: 31.25%; } }
 
 /* Mobile */
-@media (max-width:  520px) { html { font-size: 50%; } }
-@media (max-width:  420px) { html { font-size: 31.25%; } }
+@media (max-width:  520px) { html { font-size: 25%; } }
+@media (max-width:  420px) { html { font-size: 18.75%; } }

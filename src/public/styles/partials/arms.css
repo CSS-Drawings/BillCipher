@@ -10,8 +10,8 @@
 
 /* Arms */
 .bill-cipher .body-bottom .arms .rl-arms {
-    width: var(--standard-thickness);
-    height: 10rem;
+    width: calc(var(--standard-thickness) * 2);
+    height: 15rem;
 
     background-color: var(--black);
 }
@@ -29,20 +29,20 @@
 /* Hands */
 .bill-cipher .body-bottom .arms .right-arm .rl-hands,
 .bill-cipher .body-bottom .arms .left-arm .rl-hands {
-    width: 2.5rem;
-    height: 2.5rem;
+    width: 3.5rem;
+    height: 3.5rem;
 
     background-color: var(--black);
-    box-shadow: 0 0 0 0.938rem var(--background), 1.25rem 0 0 0.313rem var(--pink), -1.25rem 0 0 0.313rem var(--blue);
+    box-shadow: 0 0 0 1.5rem var(--background), 2.5rem 0 0 1rem var(--pink), -2.5rem 0 0 1rem var(--blue);
 
     position: relative;
-    bottom: -7.8rem;
+    bottom: -10.8rem;
 
-    border-radius: 50%;
-    -webkit-border-radius: 50%;
-    -moz-border-radius: 50%;
-    -ms-border-radius: 50%;
-    -o-border-radius: 50%;
+    border-radius: 100%;
+    -webkit-border-radius: 100%;
+    -moz-border-radius: 100%;
+    -ms-border-radius: 100%;
+    -o-border-radius: 100%;
 }
 .bill-cipher .body-bottom .arms .right-arm .hand { right: 0; }
 .bill-cipher .body-bottom .arms .left-arm .hand  { margin-left: -1.5rem; }
@@ -52,8 +52,8 @@
 /* Wrist */
 .bill-cipher .body-bottom .arms .right-arm .rl-wrists,
 .bill-cipher .body-bottom .arms .left-arm .rl-wrists {
-    width: var(--standard-thickness);
-    height: 3rem;
+    width: calc(var(--standard-thickness) * 2);
+    height: 6rem;
 
     background-color: var(--black);
 
