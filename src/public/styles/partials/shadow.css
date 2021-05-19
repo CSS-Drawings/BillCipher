@@ -5,8 +5,8 @@
 
     background-color: var(--drop-shadow);
 
-    position: absolute;
-    bottom: -17rem;
+    position: relative;
+    bottom: -37rem;
 
     border-radius: 100%;
     -webkit-border-radius: 100%;
@@ -14,5 +14,5 @@
     -ms-border-radius: 100%;
     -o-border-radius: 100%;
 
-    z-index: 50;
+    z-index: 25;
 }
