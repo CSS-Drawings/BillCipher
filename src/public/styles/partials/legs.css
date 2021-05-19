@@ -71,17 +71,17 @@
 .bill-cipher .body-bottom .legs .left-leg .shin .rl-foots {
     width: calc(var(--standard-thickness) * 2);
     height: 4rem;
-
+    
     background-color: var(--black);
 
     position: relative;
     top: -0.2rem;
 
-    border-radius: 5rem;
-    -webkit-border-radius: 5rem;
-    -moz-border-radius: 5rem;
-    -ms-border-radius: 5rem;
-    -o-border-radius: 5rem;
+    border-radius: 3rem 3rem 5rem 5rem;
+    -webkit-border-radius: 3rem 3rem 5rem 5rem;
+    -moz-border-radius: 3rem 3rem 5rem 5rem;
+    -ms-border-radius: 3rem 3rem 5rem 5rem;
+    -o-border-radius: 3rem 3rem 5rem 5rem;
 }
 .bill-cipher .body-bottom .legs .right-leg .shin .foot {
     left: 1.5rem;

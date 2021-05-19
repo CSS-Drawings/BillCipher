@@ -8,6 +8,8 @@
     position: absolute;
 
     overflow: hidden;
+
+    z-index: 540;
 }
 
 
@@ -26,6 +28,8 @@
     -moz-border-radius: 5rem;
     -ms-border-radius: 5rem;
     -o-border-radius: 5rem;
+
+    z-index: 543;
 }
 
 
@@ -51,6 +55,8 @@
     -moz-border-radius: 100%;
     -ms-border-radius: 100%;
     -o-border-radius: 100%;
+
+    z-index: 542;
 }
 .eye-container .eye .pupil {
     width: 2rem;
@@ -100,6 +106,8 @@
     flex-direction: row;
     align-items: flex-start;
     justify-content: space-around;
+
+    z-index: 541;
 }
 .eye-container .eyelashes .els {
     width: var(--standard-thickness);

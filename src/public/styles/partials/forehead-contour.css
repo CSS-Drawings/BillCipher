@@ -5,12 +5,14 @@
 
     margin-top: 30.5rem;
 
+    position: absolute;
+
     display: flex;
     flex-direction: row;
     align-items: center;
     justify-content: space-around;
 
-    position: absolute;
+    z-index: 550;
 }
 
 

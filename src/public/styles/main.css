@@ -15,13 +15,13 @@
     --pink : #ff0066;
     --blue : #32ccff;
 
-    --body             : #ffff67; /* - 1° #ffe94f */
-    --shadow-edge      : #faa635; /* - 2° #ff9934 */
-    --shadow-occlusion : #dc662d; /* - 2° #cc6733 */
+    --body             : #ffff67;
+    --shadow-edge      : #faa635;
+    --shadow-occlusion : #dc662d;
     --drop-shadow      : #acc9e6;
 
-    --light-brick-edge : #fad853;
-    --dark-brick-edge  : #ea8338;
+    --light-brick-edge : #faab37;
+    --dark-brick-edge  : #de6b2d;
 
     --standard-thickness: 1rem;
 }

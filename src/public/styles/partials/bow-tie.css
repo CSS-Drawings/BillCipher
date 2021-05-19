@@ -8,6 +8,8 @@
     flex-direction: row;
     align-items: center;
     justify-content: center;
+
+    z-index: 530;
 }
 
 
@@ -30,3 +32,44 @@
 }
 .bow-tie .btr { border-left: 7rem solid var(--black); }
 .bow-tie .btl { border-right: 7rem solid var(--black); }
+
+
+
+/* Bow tie shadow */
+.bow-tie-shadow {
+    width: 50rem;
+    height: 6rem;
+
+    position: absolute;
+    bottom: 5.5rem;
+
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: nowrap;
+
+    z-index: 510;
+}
+.bow-tie-shadow .bts-rl {
+    width: 13rem;
+    height: 14.5rem;
+
+    margin: 0 0.2rem 9.3rem;
+
+    border-radius: 100%;
+    -webkit-border-radius: 100%;
+    -moz-border-radius: 100%;
+    -ms-border-radius: 100%;
+    -o-border-radius: 100%;
+}
+.bow-tie-shadow .bts-r { box-shadow: 5rem 5rem 0 -4rem var(--shadow-edge); }
+.bow-tie-shadow .bts-m {
+    width: 10rem;
+    height: 3.5rem;
+
+    background-color: var(--shadow-edge);
+
+    margin-top: 2.5rem;
+}
+.bow-tie-shadow .bts-l { box-shadow: -5rem 5rem 0 -4rem var(--shadow-edge); }

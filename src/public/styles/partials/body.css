@@ -145,7 +145,7 @@
     border-right: 3rem solid transparent;
 }
 .bill-cipher .dark .bb-complement {
-    width: 46.1rem;
+    width: 46rem;
     height: 0;
 
     border-top: 1rem solid var(--black);
@@ -175,7 +175,7 @@
     border-right: 3rem solid transparent;
 }
 .bill-cipher .blue .bb-complement {
-    width: 46.1rem;
+    width: 46rem;
     height: 0;
 
     border-top: 1rem solid var(--blue);
@@ -205,7 +205,7 @@
     border-right: 3rem solid transparent;
 }
 .bill-cipher .pink .bb-complement {
-    width: 46.1rem;
+    width: 46rem;
     height: 0;
 
     border-top: 1rem solid var(--pink);
