@@ -75,7 +75,7 @@
     -o-border-radius: 0 0 25% 25%;
 }
 .eye-container .eye .direct-light {
-    width: 4rem;
+    width: 4.5rem;
     height: 1.5rem;
 
     background-color: var(--white);
@@ -84,7 +84,7 @@
 
     position: absolute;
     top: 0.5rem;
-    right: 3.5rem;
+    right: 2.5rem;
 
     border-radius: 5rem;
     -webkit-border-radius: 5rem;

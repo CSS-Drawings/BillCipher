@@ -37,6 +37,10 @@
     animation: slide-eye 8000ms cubic-bezier(0.075, 0.820, 0.165, 1.000) infinite; /* - EaseOutCirc */
     -webkit-animation: slide-eye 8000ms cubic-bezier(0.075, 0.820, 0.165, 1.000) infinite;
 }
+.slide-direct-light {
+    animation: slide-direct-light 4000ms ease-in-out infinite; /*-EaseInOut*/
+    -webkit-animation: slide-direct-light 4000ms ease-in-out infinite;
+}
 .slide-shadow {
     animation: slide-shadow 4000ms ease-in-out infinite; /* - EaseInOut */
     -webkit-animation: slide-shadow 4000ms ease-in-out infinite;
@@ -244,6 +248,52 @@
         -moz-transform: translateX(0);
         -ms-transform: translateX(0);
         -o-transform: translateX(0);
+    }
+}
+@-webkit-keyframes slide-direct-light {
+    0% {
+        transform: translateY(0);
+        -webkit-transform: translateY(0);
+        -moz-transform: translateY(0);
+        -ms-transform: translateY(0);
+        -o-transform: translateY(0);
+    }
+    50% {
+        transform: translateY(2rem);
+        -webkit-transform: translateY(2rem);
+        -moz-transform: translateY(2rem);
+        -ms-transform: translateY(2rem);
+        -o-transform: translateY(2rem);
+    }
+    100% {
+        transform: translateY(0);
+        -webkit-transform: translateY(0);
+        -moz-transform: translateY(0);
+        -ms-transform: translateY(0);
+        -o-transform: translateY(0);
+    }
+}
+@keyframes slide-direct-light {
+    0% {
+        transform: translateY(0);
+        -webkit-transform: translateY(0);
+        -moz-transform: translateY(0);
+        -ms-transform: translateY(0);
+        -o-transform: translateY(0);
+    }
+    50% {
+        transform: translateY(2rem);
+        -webkit-transform: translateY(2rem);
+        -moz-transform: translateY(2rem);
+        -ms-transform: translateY(2rem);
+        -o-transform: translateY(2rem);
+    }
+    100% {
+        transform: translateY(0);
+        -webkit-transform: translateY(0);
+        -moz-transform: translateY(0);
+        -ms-transform: translateY(0);
+        -o-transform: translateY(0);
     }
 }
 @-webkit-keyframes slide-shadow {
